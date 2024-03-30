@@ -36,6 +36,7 @@ function add() {
     <i class="fa-regular fa-floppy-disk save${i}" onclick="save(${i})" style="display: none;"></i>
 </div>`);
     localStorage.setItem("i", i);
+    document.getElementById("todoText").value = "";
     }
     
 }
@@ -54,7 +55,6 @@ document.getElementById("todoText").addEventListener("keypress",
         if (event.key === "Enter") {
             event.preventDefault();
             document.getElementById("todoAddButton").click();
-            document.getElementById("todoText").value = "";
         }
     }
 )
