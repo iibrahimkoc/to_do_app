@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.todoApp{
+    width: max-content;
+}
+.todo-addBox{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+#todoText{
+    width: 25.5rem;
+    height: 4rem;
+    padding-left: 1rem;
+    font-size: 2rem;
+}
+#todoAddButton{
+    cursor: pointer;
+    width: 4.5rem;
+    height: 4rem;
+    font-size: 2.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.todoList{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.todolistExampleBox{
+    border: 2px solid black;
+    width: 100%;
+    height: 4.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+.todolistTextExample{
+    border: none;
+    outline: none;
+    height: 100%;
+    padding: 0 0 0 1rem;
+    font-size: 2rem;
+}
+
+.fa-floppy-disk{
+    display: none;
+    font-size: 2.7rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    width: 4rem;
+    height: 4rem;
+}
+.fa-trash-can{
+    font-size: 2.7rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    width: 4rem;
+    height: 4rem;
+    
+}
