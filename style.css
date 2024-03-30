@@ -68,9 +68,8 @@ body{
 }
 
 .fa-floppy-disk{
-    display: none;
     font-size: 2.7rem;
-    display:flex;
+    display:none;
     align-items: center;
     justify-content: center;
     cursor: pointer;
