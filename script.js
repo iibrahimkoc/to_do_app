@@ -22,7 +22,7 @@ function add() {
         i++;
     deger = document.getElementById("todoText").value;
     document.querySelector(".todoList").innerHTML += `<div class="todolistExampleBox value${i}">     
-            <input type="text" class="todolistTextExample" value="${deger}" onclick="duzelt(${i})"></input>
+            <input type="text" class="todolistTextExample" value="${deger}"></input>
             <i class="fa-regular fa-trash-can symbol${i}"  onclick="remove(${i})"></i>
         </div>
     
@@ -30,7 +30,7 @@ function add() {
 
     console.log(i);
     localStorage.setItem(`deger${i}`, `<div class="todolistExampleBox value${i}">
-    <input type="text" class="todolistTextExample" value="${deger}" onclick="duzelt(${i})"></input>
+    <input type="text" class="todolistTextExample" value="${deger}"></input>
     <i class="fa-regular fa-trash-can symbol${i}" onclick="remove(${i})"></i>
 </div>`);
     localStorage.setItem("i", i);
